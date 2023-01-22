@@ -1,0 +1,84 @@
+body{
+    background-color:gray;
+    margin:0px;
+    font-family:Verdana;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.taCenter{
+    text-align:center;
+}
+.imgCenter{
+    display:block;
+    margin:0 auto;
+}
+#wrapper{
+    background-color:#FDFDBD;
+    width:800px;
+    margin:0 auto;
+}
+#header{
+    padding:20px;
+}
+.headerTitle{
+    font-size:40px;
+    font-weight:bold;
+    color:gray;
+    margin-top:30px;
+}
+#myMenu > ul{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+#myMenu a{
+    color:white;
+    text-decoration:none;
+}
+#myMenu a:hover{
+    font-size:22px;
+}
+#myMenu > ul > li{
+    box-sizing:border-box;
+    float:left;
+    font-size:23px;
+    width:100%;
+    text-align:center;
+    background-color:#FFF;
+    padding:10px 0;
+}
+#myMenu > ul >li:not(:first-child){
+    border-left:3px solid black;
+}
+#content{
+    padding:10px;
+}
+#footer{
+    background-color:black;
+    font-size:18px;
+    color:#FFF;
+    text-align:center;
+    font-weight:bold;
+    padding:35px 0px;
+}
+.newUserBox{
+    padding:5px;
+    font-size:20px;
+    width:200px;
+}
+#btnAdd{
+    font-size:20px;
+    font-weight:bold;
+    padding:10px;
+    cursor:pointer;
+}
+.iconDelete{
+    cursor:pointer;
+}
